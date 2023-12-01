@@ -1,0 +1,31 @@
+.idt-carousel-3 {
+    margin: 1rem 0 8rem 0;
+    @media (max-width: 991px) {
+        margin: 1rem 0 4rem 0;
+    }
+    .slick-list {
+        padding: 5rem 27% 4.5rem 27% !important;
+        @media (min-width: 992px) and (max-width: 1199px) {
+            padding: 5rem 15% 4.5rem 15% !important;
+        }
+        @media (min-width: 768px) and (max-width: 991px) {
+            padding: 2.5rem 27% 2rem 27% !important;
+        }
+        @media (max-width: 767px) {
+            padding: 1rem !important;
+        }
+    }
+    &__title {
+        font-size: 2rem;
+        color: var(--idt-text-color-4);
+        font-weight: 800;
+        margin-bottom: 3rem;
+        text-align: center;
+        @media (max-width: 991px) {
+            margin-bottom: 1rem;
+        }
+    }
+    .slide-arrow-global {
+        margin-top: 2rem;
+    }
+}

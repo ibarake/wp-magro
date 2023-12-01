@@ -1,0 +1,95 @@
+.idt-card-2 {
+    position: relative;
+    &__wrapper {
+        @media (max-width: 767px) {
+            margin: 0 1rem;
+        }
+    }
+    &__row {
+        @media (max-width: 991px) {
+            display: none;
+        }
+    }
+    &__col-left {
+        background: var(--idt-bg-color-1);
+        box-shadow: 0 5px 35px #5653D340;
+        border-radius: 30px;
+        padding: 2rem 4rem 1rem 4rem;
+        margin: auto;
+        transform: scale(0);
+        display: flex;
+        align-items: center;
+        @media (max-width: 991px) {
+            padding: 5.2rem 1rem 2rem 1rem;
+        }
+    }
+    &__caption {
+        max-width: 282px;
+        @media (min-width: 1200px) and (max-width: 1300px) {
+            max-width: 220px;
+        }
+    }
+    &__title {
+        h3 {
+            color: var(--idt-text-color-2);
+            font-size: 3.1rem;
+            line-height: 3.1rem;
+            font-weight: 800;
+        }
+    }
+    &__description {
+        p {
+            color: var(--idt-text-color-2);
+            font-size: 0.875rem;
+            line-height: 1.2rem;
+            font-weight: 300;
+        }
+    }
+    &__image-container {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        width: 250px;
+        margin: auto;
+        aspect-ratio: 1;
+        @media (max-width: 991px) {
+            width: 200px;
+        }
+    }
+    &__image {
+        width: 250px;
+    }
+    &.slick-center {
+        .idt-card-2__image {
+            width: 100%;
+        }
+        .idt-card-2__row {
+            @media (max-width: 991px) {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+            .idt-card-2__col-left {
+                transform: scale(1);
+            }
+            .idt-card-2__image-container {
+                margin-right: 0;
+                right: -6.5rem;
+                width: 362px;
+                @media (max-width: 991px) {
+                    position: relative;
+                    margin: 0 auto -5rem auto;
+                }
+                @media (max-width: 767px) {
+                    width: 320px;
+                }
+                @media (max-width: 400px) {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

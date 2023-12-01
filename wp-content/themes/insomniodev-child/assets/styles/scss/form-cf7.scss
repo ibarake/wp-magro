@@ -1,0 +1,133 @@
+.idt-form-cf7 {
+    &--center {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    &__input {
+        margin-bottom: 8px;
+        input, select, textarea {
+            background-color: var(--idt-bg-color-2);
+            height: 51px;
+            border: 1px solid #85bd0c21;
+            border-radius: 9px;
+            transition: 0.3s all ease-in-out;
+            &:hover,
+            &:focus {
+                box-shadow: none;
+                border: 1px solid var(--idt-color-1);
+            }
+        }
+    }
+    textarea {
+        height: 118px;
+    }
+    &__button {
+        position: relative;
+        .wpcf7-spinner {
+            position: absolute;
+            bottom: -1.6rem;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+    }
+    &__checkbox {
+        display: flex;
+        margin: 1rem 0;
+        &-content {
+            padding-left: 0.7rem;
+            font-size: 0.875rem;
+            a {
+                color: var(--idt-text-color-4);
+                font-weight: 800;
+                transition: 200ms all ease-in-out;
+                &:hover {
+                    color: var(--idt-text-color-1);
+                }
+            }
+        }
+        input[type="checkbox"]:before {
+            border: 1.5px solid var(--idt-color-3);
+            border-radius: 4px;
+        }
+        input[type="checkbox"]:hover:checked:before {
+            border: 1.5px solid var(--idt-color-3);
+        }
+        input[type="checkbox"]:checked:after {
+            top: -6px;
+        }
+    }
+    .wpcf7 form.invalid .wpcf7-response-output {
+        margin: 0 0 1rem 0;
+    }
+}
+
+.ld-input-file {
+    position: relative;
+    @media only screen and (max-width: 767px) {
+        display: block;
+    }
+    input[type="file"] {
+        display: none;
+    }
+    &__button {
+        margin-top: 0.6rem;
+        font-size: 14px;
+        opacity: 1;
+    }
+    &__text {
+        color: var(--idt-bg-color-4);
+        font-size: 14px;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-left: 1%;
+    }
+
+}
+
+.idt-select {
+    position: relative;
+    opacity: 0.8;
+    font-size: 0.875rem;
+    &:before {
+        content: "\f078";
+        position: absolute;
+        right: 0.5rem;
+        width: 30px;
+        height: 30px;
+        top: 0.5rem;
+        margin: auto;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        border-radius: 50%;
+        z-index: 1;
+        color: var(--idt-text-color-1);
+        box-shadow: 0px 1px 10px #5653D340;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.idt-tpl-talent {
+    .idt-form-cf7__description {
+        margin-top: 1rem;
+    }
+    .idt-form-cf7__checkbox {
+        align-items: center;
+        justify-content: center;
+    }
+    .idt-form-cf7__button {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .idt-form-cf7__checkbox-content {
+        a {
+            color: var(--idt-text-color-4);
+        }
+    }
+}

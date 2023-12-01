@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="200" viewBox="0 0 300 200">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_3325" data-name="Rectángulo 3325" width="300" height="200" transform="translate(809 426)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="forma-contacto-3" transform="translate(-809 -426)" clip-path="url(#clip-path)">
+    <path id="Trazado_12990" data-name="Trazado 12990" d="M410.2,348.83a33.612,33.612,0,0,0,33.614-33.609C443.813,141.406,302.412,0,128.6,0A314.339,314.339,0,0,0,22.287,18.388,33.612,33.612,0,0,0,44.954,81.675,247.255,247.255,0,0,1,128.6,67.223c136.74,0,247.987,111.253,247.987,248A33.615,33.615,0,0,0,410.2,348.83" transform="matrix(0.996, -0.087, 0.087, 0.996, 809, 439.788)" fill="#9da6ed"/>
+    <path id="Trazado_12991" data-name="Trazado 12991" d="M239.5,203.668a19.625,19.625,0,0,0,19.626-19.623C259.124,82.561,176.566,0,75.086,0A183.529,183.529,0,0,0,13.012,10.736a19.624,19.624,0,0,0,13.234,36.95,144.362,144.362,0,0,1,48.839-8.438c79.837,0,144.789,64.956,144.789,144.8A19.626,19.626,0,0,0,239.5,203.668" transform="translate(1015.771 508.237) rotate(30)" fill="#ffb32c"/>
+  </g>
+</svg>

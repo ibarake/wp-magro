@@ -1,0 +1,17 @@
+.idt-grid-4 {
+  margin-bottom: 4rem;
+  .row {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 991px) {
+      flex-direction: column-reverse;
+    }
+  }
+  &__shortcode {
+    box-shadow: -12px 19px 42px #263C491F;
+    border-radius: 30px;
+    background-color: var(--idt-bg-color-2);
+    padding: 2rem 2rem 1rem;
+  }
+}

@@ -1,0 +1,29 @@
+[20-Sep-2022 19:53:42 UTC] PHP Fatal error:  Uncaught Leafo\ScssPhp\Exception\ParserException: parse error: failed at `padding:;` /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/assets/styles/scss/card-5.scss on line 3, at column 3 in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev/assets/libs/php/scssphp-0.6.3/src/Parser.php:140
+Stack trace:
+#0 /home2/webtuata/public_html/magro/wp-content/themes/insomniodev/assets/libs/php/scssphp-0.6.3/src/Parser.php(194): Leafo\ScssPhp\Parser->throwParseError()
+#1 /home2/webtuata/public_html/magro/wp-content/themes/insomniodev/assets/libs/php/scssphp-0.6.3/src/Compiler.php(4060): Leafo\ScssPhp\Parser->parse('.idt-card-5 {\r\n...')
+#2 /home2/webtuata/public_html/magro/wp-content/themes/insomniodev/assets/libs/php/scssphp-0.6.3/src/Compiler.php(2009): Leafo\ScssPhp\Compiler->importFile('/home2/webtuata...', Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#3 /home2/webtuata/public_html/magro/wp-content/themes/insomniodev/assets/libs/php/scssphp-0.6.3/src/Compiler.php(2080): Leafo\Scss in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev/assets/libs/php/scssphp-0.6.3/src/Parser.php on line 140
+[20-Oct-2022 17:29:09 UTC] PHP Fatal error:  Uncaught Error: Class 'idt_child_helper' not found in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/functions.php:21
+Stack trace:
+#0 /home2/webtuata/public_html/magro/wp-includes/class-wp-hook.php(307): ld_child_includes('')
+#1 /home2/webtuata/public_html/magro/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/webtuata/public_html/magro/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home2/webtuata/public_html/magro/wp-settings.php(576): do_action('after_setup_the...')
+#4 /home2/webtuata/public_html/magro/wp-config.php(99): require_once('/home2/webtuata...')
+#5 /home2/webtuata/public_html/magro/wp-load.php(50): require_once('/home2/webtuata...')
+#6 /home2/webtuata/public_html/magro/wp-admin/admin-ajax.php(22): require_once('/home2/webtuata...')
+#7 {main}
+  thrown in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/functions.php on line 21
+[24-Oct-2022 15:10:45 UTC] PHP Parse error:  syntax error, unexpected '}' in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/includes/child_helper.php on line 447
+[24-Oct-2022 15:26:31 UTC] PHP Fatal error:  Uncaught Error: Class 'idt_child_helper' not found in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/functions.php:21
+Stack trace:
+#0 /home2/webtuata/public_html/magro/wp-includes/class-wp-hook.php(307): ld_child_includes('')
+#1 /home2/webtuata/public_html/magro/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/webtuata/public_html/magro/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home2/webtuata/public_html/magro/wp-settings.php(576): do_action('after_setup_the...')
+#4 /home2/webtuata/public_html/magro/wp-config.php(99): require_once('/home2/webtuata...')
+#5 /home2/webtuata/public_html/magro/wp-load.php(50): require_once('/home2/webtuata...')
+#6 /home2/webtuata/public_html/magro/wp-admin/admin-ajax.php(22): require_once('/home2/webtuata...')
+#7 {main}
+  thrown in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/functions.php on line 21

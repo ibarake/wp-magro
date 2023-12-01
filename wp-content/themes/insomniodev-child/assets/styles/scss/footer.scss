@@ -1,0 +1,202 @@
+.idt-footer {
+    padding: 5.5rem 0 1rem 0;
+    position: relative;
+    z-index: 9;
+    margin-top: 9rem;
+    @media (max-width: 991px) {
+        padding: 5.5rem 0 1rem 0;
+    }
+    .idt-section-background {
+        img {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+            z-index: -1;
+        }
+    }
+    .idt-section-isotipo {
+        img {
+            position: absolute;
+            top: -1.5rem;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 120px;
+            @media (min-width: 1600px) {
+                top: -1rem;
+            }
+            @media (min-width: 1800px) {
+                top: -0.5rem;
+            }
+            @media (max-width: 767px) {
+                top: -1rem;
+            }
+        }
+    }
+    #idt-footer-1 {
+        padding-bottom: 2rem;
+        h2 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--idt-text-color-2);
+            position: relative;
+            padding-bottom: 0.7rem;
+            margin-bottom: 1.25rem;
+            @media (min-width: 992px) {
+                display: inline-block;
+            }
+            @media (max-width: 991px) {
+                cursor: pointer;
+                margin: 0;
+                padding: 1.2rem 2rem 1.2rem 0;
+            }
+            &:before {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 3px;
+                background-color: var(--idt-bg-color-6);
+                @media (max-width: 991px) {
+                    display: none;
+                }
+            }
+        }
+        .widget_nav_menu {
+            .menu {
+                padding: 0;
+                list-style: none;
+                li {
+                    margin-bottom: 1rem;
+                    a {
+                        display: block;
+                        color: var(--idt-text-color-2);
+                        font-size: 0.875rem;
+                        line-height: 1rem;
+                        position: relative;
+                        text-decoration: none;
+                        transition: 300ms all ease-in-out;
+                        &:before {
+                            content: '°';
+                            color: transparent;
+                            font-size: 1.4rem;
+                            position: absolute;
+                            left: -0.8rem;
+                            top: 8px;
+                            bottom: 0;
+                            width: 8px;
+                            height: 8px;
+                            margin-bottom: 0;
+                            display: flex;
+                            align-items: center;
+                            transition: 300ms all ease-in-out;
+                            @media (max-width: 991px) {
+                                display: none;
+                            }
+                        }
+                        &:hover {
+                            color: var(--idt-text-color-10);
+                            &:before {
+                                color: var(--idt-text-color-10);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .idt-section-2,
+        .idt-section-3,
+        .idt-section-4 {
+            .widget_nav_menu, .widget_block {
+                @media only screen and (max-width: 991px) {
+                    position: relative;
+                    &:before {
+                        content: url("../../images/flecha-blanca-derecha.svg");
+                        width: 30px;
+                        height: 30px;
+                        position: absolute;
+                        right: 0;
+                        top: 1rem;
+                        cursor: pointer;
+                        transform: rotate(90deg);
+                        z-index: 9;
+                    }
+                    &:after {
+                        content: ' ';
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                        width: 100%;
+                        height: 1px;
+                        background-color: var(--idt-bg-color-2);
+                    }
+                }
+
+                .menu, address {
+                    @media only screen and (max-width: 991px) {
+                        display: none;
+                        margin-top: 1rem;
+                        margin-bottom: 0;
+                        padding-bottom: 1.5rem;
+                    }
+                }
+            }
+
+            .widget_nav_menu.active, .widget_block.active {
+                &:before {
+                    transform: rotate(270deg);
+                }
+            }
+        }
+
+
+        .idt-section-1 {
+            @media (max-width: 991px) {
+                text-align: center;
+            }
+            h2 {
+                padding: 0;
+                &:before {
+                    display: none;
+                }
+            }
+            .widget_text {
+                p {
+                    font-size: 0.875rem;
+                    line-height: 1.25rem;
+                    color: var(--idt-text-color-2);
+                }
+            }
+            .wp-block-image {
+                margin-bottom: 2rem;
+                img {
+                    width: 176px;
+                }
+            }
+        }
+
+        .idt-section-4 {
+            .widget_block {
+                address {
+                    font-size: 0.875rem;
+                    color: var(--idt-text-color-2);
+                }
+                a {
+                    color: var(--idt-text-color-2);
+                    transition: 300ms all ease-in-out;
+                    text-decoration: none;
+                    &:hover {
+                        color: var(--idt-text-color-10);
+                    }
+                }
+            }
+        }
+    }
+}

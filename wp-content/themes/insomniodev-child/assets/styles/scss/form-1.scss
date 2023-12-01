@@ -1,0 +1,39 @@
+.idt-form-1 {
+    padding: 3rem 0;
+    @media (max-width: 991px) {
+        padding: 1rem 0 5rem 0;
+    }
+    &__title {
+        h2 {
+            font-size: 2.1rem;
+            line-height: 2rem;
+            color: var(--idt-text-color-5);
+            font-weight: 800;
+            margin-bottom: 1rem;
+        }
+    }
+    &__form {
+        box-shadow: -12px 19px 42px #263C491F;
+        border-radius: 30px;
+        padding: 2rem;
+        @media (max-width: 991px) {
+            padding: 1rem;
+        }
+        h3 {
+            font-size: 1.25rem;
+            font-weight: 800;
+            margin: 1rem 0;
+        }
+    }
+    .idt-form-cf7__button {
+        position: relative;
+        .wpcf7-spinner {
+            position: absolute;
+            bottom: -1.5rem;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+    }
+}
+

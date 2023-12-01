@@ -1,0 +1,116 @@
+#ld-tpl-single-post {
+	main {
+        padding-top: 1rem;
+        position: relative;
+        z-index: 3;
+    }
+	.idt-blog-aside{
+		margin-top: -3.06rem;
+		margin-left: 1rem;
+        margin-right: -1.25rem;
+		margin-bottom: 10rem;
+		@media only screen and( max-width: 991px ) {
+			margin-top: 1.06rem;
+            margin-right: 0.75rem;
+			margin-bottom: 4.75rem;
+		}
+	}
+	
+    .ld-single-post {
+		* {
+			color: var(--idt-text-color-5);
+
+			@media only screen and (max-width: 991px){
+				p {
+					text-align: center;
+				}
+			}
+		}
+
+		&__image {
+			margin-bottom: 1.5rem;
+			border-radius: 0.5rem;
+			width: 100%;
+		}
+		
+		&__container{
+			margin-top: -3.12rem;
+			margin-left: -0.43rem;
+            margin-right: -1rem;
+			@media only screen and( max-width: 991px ){
+				margin-left: 0.81rem;
+                margin-right: 0.37rem;
+			}
+		}
+		.ld-post-footer {
+			font-size: 0.9rem;
+			padding: 0.75rem 1.5rem;
+			flex-wrap: wrap;
+			margin-top: 3rem;
+
+			@media only screen and (max-width: 767px){
+				text-align: center;
+			}
+
+			@media only screen and (max-width: 991px){
+				margin-top: 1.12rem;
+				margin-bottom: 1.12rem;
+			}
+
+			span {
+				width: 17%;
+				display: block;
+				@media only screen and (max-width: 767px) {
+					width: 100%;
+					span {
+						display: inline !important;
+					}
+				}
+			}
+			.ld-author {
+				font-weight: 800;
+				text-align: inherit !important;
+				display: inline-block;
+				color: var(--idt-text-color-1);
+			}
+
+			ul {
+				width: 57%;
+				list-style: none;
+				padding-left: 1rem;
+				margin-left: 1rem;
+				margin-bottom: 0;
+				border-left: 0.06rem solid var(--idt-bg-color-1);
+				@media only screen and (max-width: 767px) {
+					width: 100%;
+					border-left: none;
+					padding-left: 0;
+					margin-left: 0;
+					margin-top: 0.5rem;
+				}
+				li {
+					display: inline-block;
+					a {
+						font-weight: 800;
+						color: var(--idt-text-color-1);
+						text-decoration: none;
+						transition: 200ms all ease-in-out;
+						&:hover {
+							color: var(--idt-text-color-13);
+						}
+					}
+				}
+			}
+			span:last-child {
+				text-align: right;
+			}
+
+			.ld-post-card__date {
+				@media only screen and (max-width: 767px) {
+					text-align: center!important;
+					margin-top: 0.5rem;
+				}
+			}
+		}
+	}
+}

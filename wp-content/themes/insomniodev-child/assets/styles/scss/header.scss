@@ -1,0 +1,80 @@
+.idt-header {
+    .idt-menu-mobile-layout {
+        background-color: transparent;
+        &.active {
+            background-color: var(--idt-bg-color-2);
+        }
+    }
+    .idt-logo-url {
+        position: relative;
+        display: block;
+        margin-top: 1rem;
+        transition: 300ms all ease-in-out;
+        @media (max-width: 991px) {
+            margin-top: 0;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+            width: 100vw;
+            height: 66px;
+            background-color: var(--idt-bg-color-2);
+            @media (max-width: 991px) {
+                border-radius: 0 0 42px 0;
+            }
+        }
+    }
+    .idt-logo {
+        position: relative;
+        z-index: 99999;
+        @media (max-width: 767px) {
+            width: 136px;
+        }
+    }
+    .idt-sticky-active, .idt-menu-mobile-layout--light {
+        background-color: var(--idt-bg-color-2);
+        box-shadow: 0 0 8px var(--idt-color-5);
+        .idt-logo-url {
+            margin-top: 0;
+            &::before {
+                display: none;
+            }
+        }
+        .idt-menu-desktop {
+            .menu {
+                li {
+                    a {
+                        color: var(--idt-text-color-5);
+                        &:before {
+                            background-color: var(--idt-bg-color-1);
+                        }
+                        &:hover {
+                            color: var(--idt-text-color-1);
+                        }
+                    }
+                }
+                .current-menu-item {
+                    a {
+                        color: var(--idt-text-color-1);
+                    }
+                }
+                .menu-item-has-children {
+                    &:before {
+                        color: var(--idt-text-color-5);
+                    }
+                    &:hover {
+                        &:before {
+                            color: var(--idt-text-color-1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

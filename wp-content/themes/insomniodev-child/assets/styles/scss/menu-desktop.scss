@@ -1,0 +1,92 @@
+.idt-menu-desktop {
+    .menu {
+        display: flex;
+        align-items: center;
+        li {
+            margin: 0 25px;
+            position: relative;
+            a {
+                display: block;
+                position: relative;
+                color: var(--idt-text-color-2);
+                font-size: 0.875rem;
+                line-height: 1rem;
+                font-weight: 600;
+                text-decoration: none;
+                transition: 200ms all ease-in-out;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    bottom: -0.2rem;
+                    margin: auto;
+                    width: 0;
+                    height: 2px;
+                    background-color: var(--idt-bg-color-2);
+                    transition: 200ms all ease-in-out;
+                }
+                &:hover {
+                    color: var(--idt-text-color-2);
+                    &:before {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .current-menu-item {
+            a {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+        ul {
+            display: none;
+            position: absolute;
+            top: 1.1rem;
+            left: 0;
+            padding: 1rem;
+            width: 210px;
+            background-color: var(--idt-bg-color-2);
+            box-shadow: 0 3px 6px #00000029;
+            border-radius: 10px;
+            li {
+                margin: 0 0 1rem 0;
+                max-width: initial;
+                display: block;
+                a {
+                    color: var(--idt-text-color-5);
+                    &:hover {
+                        color: var(--idt-text-color-1);
+                    }
+                }
+            }
+
+        }
+        .menu-item-has-children {
+            &:before {
+                content: "\f078";
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: -1.4rem;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                font-weight: 600;
+                font-family: "Font Awesome 5 Free";
+                color: var(--idt-text-color-2);
+                transition: 200ms all ease-in-out;
+            }
+            &:hover {
+                ul {
+                    display: block;
+                }
+                &:before {
+                    color: var(--idt-text-color-5);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.idt-social-media {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    .idt-menu.idt-horizontal {
+        li {
+            display: block;
+            margin-right: 0;
+            margin-bottom: 1rem;
+            a {
+                font-size: 1.2rem;
+                text-decoration: none;
+                i {
+                    width: 34px;
+                    height: 34px;
+                    color: var(--idt-text-color-5);
+                    background-color: var(--idt-bg-color-2);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50px;
+                    transition: 300ms all ease-in-out;
+                }
+                &:hover {
+                    i {
+                        color: var(--idt-text-color-2);
+                        background-color: var(--idt-bg-color-3);
+                    }
+                }
+            }
+        }
+    }
+    &__title {
+        transform: rotate(-90deg);
+        font-size: 1rem;
+        line-height: 1rem;
+        color: var(--idt-text-color-2);
+        margin-top: 1.5rem;
+        position: relative;
+        &:before {
+            content: '';
+            position: absolute;
+            left: -3.5rem;
+            top: 0;
+            bottom: 0;
+            width: 45px;
+            height: 2px;
+            background-color: var(--idt-bg-color-2);
+            margin: auto;
+        }
+    }
+}

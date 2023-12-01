@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="644" height="511" viewBox="0 0 644 511">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_3357" data-name="Rectángulo 3357" width="644" height="511" transform="translate(-4456 -1300)" fill="#5653d3" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="formas-blancas" transform="translate(4456 1300)" clip-path="url(#clip-path)">
+    <g id="Grupo_9752" data-name="Grupo 9752" transform="translate(-4607.466 -715.184) rotate(-91)" opacity="0.2">
+      <path id="Trazado_13046" data-name="Trazado 13046" d="M68.695,712.878A68.691,68.691,0,0,1,0,644.195C0,288.982,288.971,0,644.171,0a642.392,642.392,0,0,1,217.27,37.579,68.69,68.69,0,0,1-46.323,129.334,505.3,505.3,0,0,0-170.947-29.534c-279.446,0-506.793,227.36-506.793,506.817a68.7,68.7,0,0,1-68.684,68.684" transform="matrix(0.995, -0.105, 0.105, 0.995, 0, 94.806)" fill="#fff"/>
+    </g>
+    <g id="Grupo_9753" data-name="Grupo 9753" transform="translate(-2676.874 -1224.898) rotate(150)" opacity="0.31">
+      <path id="Trazado_13047" data-name="Trazado 13047" d="M37.61,390.292A37.607,37.607,0,0,1,0,352.689C0,158.214,158.208,0,352.676,0A351.7,351.7,0,0,1,471.629,20.574a37.607,37.607,0,0,1-25.361,70.809,276.645,276.645,0,0,0-93.591-16.17c-152.993,0-277.463,124.477-277.463,277.476a37.61,37.61,0,0,1-37.6,37.6" transform="matrix(0.995, -0.105, 0.105, 0.995, 0, 51.905)" fill="none" stroke="#fff" stroke-width="1"/>
+    </g>
+    <g id="Grupo_9754" data-name="Grupo 9754" transform="translate(-4577.654 -1287.834) rotate(-53)" opacity="0.31">
+      <path id="Trazado_13048" data-name="Trazado 13048" d="M37.61,390.292A37.607,37.607,0,0,1,0,352.689C0,158.214,158.208,0,352.676,0A351.7,351.7,0,0,1,471.628,20.574a37.607,37.607,0,0,1-25.361,70.809,276.644,276.644,0,0,0-93.591-16.17c-152.993,0-277.463,124.477-277.463,277.476a37.61,37.61,0,0,1-37.6,37.6" transform="matrix(0.995, -0.105, 0.105, 0.995, 0, 51.905)" fill="#fff" stroke="#fff" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

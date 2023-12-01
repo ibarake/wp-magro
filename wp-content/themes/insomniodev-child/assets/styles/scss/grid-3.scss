@@ -1,0 +1,42 @@
+.idt-grid-3 {
+  padding: 7rem 0 8.75rem;
+  background: var(--idt-bg-color-9);
+  @media (max-width: 991px) {
+    text-align: center;
+    object-fit: cover;
+    aspect-ratio: 237/297;
+  }
+  .row {
+    flex-direction: row-reverse;
+    align-content: center;
+    grid-gap: 0 6.6rem;
+    @media (max-width: 991px) {
+      flex-direction: column-reverse;
+    }
+  }
+  &__content {
+    color: var(--idt-text-color-2);
+    height: 280px;
+    overflow-y: auto;
+    padding-right: 2rem;
+  }
+  &__title  {
+      @media (max-width: 991px) {
+        text-align: center;
+      }
+  }
+  &__image {
+    @media (max-width: 991px) {
+      text-align: center;
+      object-fit: contain;
+      aspect-ratio: 4/3;
+      margin-bottom:1rem;
+    }
+  }
+
+  &__sub-title {
+    @media (max-width: 991px) {
+      text-align: center;
+    }
+  }
+}

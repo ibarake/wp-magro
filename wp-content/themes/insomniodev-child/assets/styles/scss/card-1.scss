@@ -1,0 +1,44 @@
+.idt-card-1 {
+    height: auto;
+    &__wrapper {
+        margin: 0 1rem;
+    }
+    &__caption {
+        padding: 2.5rem 2rem 1rem 2rem;
+        box-shadow: 0 5px 20px #5653D326;
+        border-radius: 30px;
+        background-color: var(--idt-bg-color-2);
+        min-height: 240px;
+    }
+    &__title {
+        h3 {
+            color: var(--idt-text-color-5);
+            font-size: 1.25rem;
+            line-height: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 0.6rem;
+        }
+    }
+    &__description {
+        font-size: 0.875rem;
+        line-height: 1.2rem;
+        color: var(--idt-text-color-5);
+    }
+    &__image {
+        padding: 3rem 3rem 1.5rem 3rem;
+        position: relative;
+        margin: 0 auto -3.5rem auto;
+        z-index: 9;
+    }
+}
+
+.idt-card-1.slick-current.slick-active {
+    .idt-card-1__caption {
+        padding: 3rem 2rem 1.5rem 2rem;
+        background-color: var(--idt-bg-color-7);
+        min-height: 260px;
+    }
+    .idt-card-1__image {
+        padding: 2rem 2rem 1.5rem 2rem;
+    }
+}

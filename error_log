@@ -1,0 +1,202 @@
+[12-Sep-2022 15:57:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method idt_child_helper::getPageDefaultOptions() in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/page.php:16
+Stack trace:
+#0 /home2/webtuata/public_html/magro/wp-includes/template-loader.php(106): include()
+#1 /home2/webtuata/public_html/magro/wp-blog-header.php(19): require_once('/home2/webtuata...')
+#2 /home2/webtuata/public_html/magro/index.php(17): require('/home2/webtuata...')
+#3 {main}
+  thrown in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/page.php on line 16
+[12-Sep-2022 19:53:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method idt_child_helper::getPageDefaultOptions() in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/page.php:16
+Stack trace:
+#0 /home2/webtuata/public_html/magro/wp-includes/template-loader.php(106): include()
+#1 /home2/webtuata/public_html/magro/wp-blog-header.php(19): require_once('/home2/webtuata...')
+#2 /home2/webtuata/public_html/magro/index.php(17): require('/home2/webtuata...')
+#3 {main}
+  thrown in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/page.php on line 16
+[21-Sep-2022 19:34:13 UTC] PHP Fatal error:  Cannot use [] for reading in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/carousels/carousel-7.php on line 22
+[21-Sep-2022 19:34:45 UTC] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/carousels/carousel-7.php on line 14
+[21-Sep-2022 19:34:45 UTC] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/carousels/carousel-7.php on line 14
+[21-Sep-2022 19:34:45 UTC] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/carousels/carousel-7.php on line 14
+[21-Sep-2022 19:35:08 UTC] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/carousels/carousel-7.php on line 15
+[21-Sep-2022 19:35:08 UTC] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/carousels/carousel-7.php on line 15
+[21-Sep-2022 19:35:08 UTC] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/carousels/carousel-7.php on line 15
+[21-Sep-2022 19:35:15 UTC] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/carousels/carousel-7.php on line 15
+[21-Sep-2022 19:35:15 UTC] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/carousels/carousel-7.php on line 15
+[21-Sep-2022 19:35:15 UTC] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/carousels/carousel-7.php on line 15
+[21-Sep-2022 19:52:29 UTC] PHP Warning:  A non-numeric value encountered in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/tabs/tab-1.php on line 88
+[21-Sep-2022 19:52:29 UTC] PHP Warning:  A non-numeric value encountered in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/tabs/tab-1.php on line 88
+[21-Sep-2022 19:52:29 UTC] PHP Warning:  A non-numeric value encountered in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/tabs/tab-1.php on line 88
+[21-Sep-2022 19:54:02 UTC] PHP Warning:  A non-numeric value encountered in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/tabs/tab-1.php on line 88
+[21-Sep-2022 19:54:02 UTC] PHP Warning:  A non-numeric value encountered in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/tabs/tab-1.php on line 88
+[21-Sep-2022 19:54:02 UTC] PHP Warning:  A non-numeric value encountered in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/tabs/tab-1.php on line 88
+[22-Sep-2022 16:03:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getPostThumbnail() on null in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/posts/post/post-card-small.php:26
+Stack trace:
+#0 /home2/webtuata/public_html/magro/wp-includes/template.php(772): require()
+#1 /home2/webtuata/public_html/magro/wp-includes/template.php(716): load_template('/home2/webtuata...', false, Array)
+#2 /home2/webtuata/public_html/magro/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/templates/blog/default.php(66): get_template_part('sections/posts/...', 'card-small', Array)
+#4 /home2/webtuata/public_html/magro/wp-includes/template.php(772): require('/home2/webtuata...')
+#5 /home2/webtuata/public_html/magro/wp-includes/template.php(716): load_template('/home2/webtuata...', false, Array)
+#6 /home2/webtuata/public_html/magro/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#7 /home2/ in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/posts/post/post-card-small.php on line 26
+[22-Sep-2022 16:03:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getPostThumbnail() on null in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/posts/post/post-card-small.php:26
+Stack trace:
+#0 /home2/webtuata/public_html/magro/wp-includes/template.php(772): require()
+#1 /home2/webtuata/public_html/magro/wp-includes/template.php(716): load_template('/home2/webtuata...', false, Array)
+#2 /home2/webtuata/public_html/magro/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/templates/blog/default.php(66): get_template_part('sections/posts/...', 'card-small', Array)
+#4 /home2/webtuata/public_html/magro/wp-includes/template.php(772): require('/home2/webtuata...')
+#5 /home2/webtuata/public_html/magro/wp-includes/template.php(716): load_template('/home2/webtuata...', false, Array)
+#6 /home2/webtuata/public_html/magro/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#7 /home2/ in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/posts/post/post-card-small.php on line 26
+[22-Sep-2022 22:16:15 UTC] PHP Fatal error:  Uncaught Leafo\ScssPhp\Exception\ParserException: parse error: failed at `padding-top: 5rem padding-bottom: 3rem;` /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/assets/styles/scss/tpl-404.scss on line 3, at column 9 in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev/assets/libs/php/scssphp-0.6.3/src/Parser.php:140
+Stack trace:
+#0 /home2/webtuata/public_html/magro/wp-content/themes/insomniodev/assets/libs/php/scssphp-0.6.3/src/Parser.php(194): Leafo\ScssPhp\Parser->throwParseError()
+#1 /home2/webtuata/public_html/magro/wp-content/themes/insomniodev/assets/libs/php/scssphp-0.6.3/src/Compiler.php(4060): Leafo\ScssPhp\Parser->parse('.idt-tpl-404 {\r...')
+#2 /home2/webtuata/public_html/magro/wp-content/themes/insomniodev/assets/libs/php/scssphp-0.6.3/src/Compiler.php(2009): Leafo\ScssPhp\Compiler->importFile('/home2/webtuata...', Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#3 /home2/webtuata/public_html/magro/wp-content/themes/insomniodev/assets/libs/php/scssphp-0.6.3/src/ in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev/assets/libs/php/scssphp-0.6.3/src/Parser.php on line 140
+[27-Sep-2022 20:02:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/carousels/carousel-4.php on line 70
+[27-Sep-2022 20:05:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/carousels/carousel-4.php on line 70
+[27-Sep-2022 20:26:04 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/carousels/carousel-4.php on line 78
+[29-Sep-2022 17:14:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/tabs/tab-1.php on line 127
+[29-Sep-2022 17:14:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/tabs/tab-1.php on line 127
+[29-Sep-2022 17:14:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/tabs/tab-1.php on line 127
+[03-Oct-2022 13:21:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method idt_child_helper::getTplThanksOptions() in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/templates/tpl-thp.php:20
+Stack trace:
+#0 /home2/webtuata/public_html/magro/wp-includes/template-loader.php(106): include()
+#1 /home2/webtuata/public_html/magro/wp-blog-header.php(19): require_once('/home2/webtuata...')
+#2 /home2/webtuata/public_html/magro/index.php(17): require('/home2/webtuata...')
+#3 {main}
+  thrown in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/templates/tpl-thp.php on line 20
+[03-Oct-2022 13:22:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method idt_child_helper::getTplThanksOptions() in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/templates/tpl-thp.php:18
+Stack trace:
+#0 /home2/webtuata/public_html/magro/wp-includes/template-loader.php(106): include()
+#1 /home2/webtuata/public_html/magro/wp-blog-header.php(19): require_once('/home2/webtuata...')
+#2 /home2/webtuata/public_html/magro/index.php(17): require('/home2/webtuata...')
+#3 {main}
+  thrown in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/templates/tpl-thp.php on line 18
+[03-Oct-2022 13:23:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method idt_child_helper::getTplThanksOptions() in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/templates/tpl-thp.php:18
+Stack trace:
+#0 /home2/webtuata/public_html/magro/wp-includes/template-loader.php(106): include()
+#1 /home2/webtuata/public_html/magro/wp-blog-header.php(19): require_once('/home2/webtuata...')
+#2 /home2/webtuata/public_html/magro/index.php(17): require('/home2/webtuata...')
+#3 {main}
+  thrown in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/templates/tpl-thp.php on line 18
+[19-Oct-2022 22:16:16 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/grids/grid-5.php on line 84
+[19-Oct-2022 22:17:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/grids/grid-5.php on line 84
+[19-Oct-2022 22:19:12 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/grids/grid-5.php on line 84
+[19-Oct-2022 22:19:57 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/grids/grid-5.php on line 84
+[19-Oct-2022 22:20:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/grids/grid-5.php on line 84
+[19-Oct-2022 22:21:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/grids/grid-5.php on line 84
+[19-Oct-2022 22:24:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/grids/grid-5.php on line 84
+[19-Oct-2022 22:25:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/grids/grid-5.php on line 84
+[19-Oct-2022 22:26:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/grids/grid-5.php on line 84
+[19-Oct-2022 22:27:57 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/grids/grid-5.php on line 84
+[20-Oct-2022 21:37:09 UTC] PHP Warning:  Illegal string offset 'url' in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/cards/card-6.php on line 49
+[20-Oct-2022 21:37:09 UTC] PHP Warning:  Illegal string offset 'url' in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/cards/card-6.php on line 49
+[20-Oct-2022 21:37:09 UTC] PHP Warning:  Illegal string offset 'url' in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/cards/card-6.php on line 49
+[20-Oct-2022 21:37:49 UTC] PHP Warning:  Illegal string offset 'url' in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/cards/card-6.php on line 49
+[20-Oct-2022 21:37:49 UTC] PHP Warning:  Illegal string offset 'url' in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/cards/card-6.php on line 49
+[20-Oct-2022 21:37:49 UTC] PHP Warning:  Illegal string offset 'url' in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/cards/card-6.php on line 49
+[20-Oct-2022 21:53:58 UTC] PHP Warning:  Illegal string offset 'url' in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/cards/card-6.php on line 49
+[20-Oct-2022 21:53:58 UTC] PHP Warning:  Illegal string offset 'url' in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/cards/card-6.php on line 49
+[20-Oct-2022 21:53:58 UTC] PHP Warning:  Illegal string offset 'url' in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/cards/card-6.php on line 49
+[20-Oct-2022 22:02:46 UTC] PHP Warning:  Illegal string offset 'url' in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/cards/card-6.php on line 49
+[20-Oct-2022 22:02:46 UTC] PHP Warning:  Illegal string offset 'url' in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/cards/card-6.php on line 49
+[20-Oct-2022 22:02:46 UTC] PHP Warning:  Illegal string offset 'url' in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/cards/card-6.php on line 49
+[20-Oct-2022 22:04:00 UTC] PHP Warning:  Illegal string offset 'url' in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/cards/card-6.php on line 49
+[20-Oct-2022 22:04:00 UTC] PHP Warning:  Illegal string offset 'url' in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/cards/card-6.php on line 49
+[20-Oct-2022 22:04:00 UTC] PHP Warning:  Illegal string offset 'url' in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/cards/card-6.php on line 49
+[20-Oct-2022 22:05:30 UTC] PHP Warning:  Illegal string offset 'link' in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/cards/card-6.php on line 49
+[20-Oct-2022 22:05:30 UTC] PHP Warning:  Illegal string offset 'link' in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/cards/card-6.php on line 49
+[20-Oct-2022 22:05:30 UTC] PHP Warning:  Illegal string offset 'link' in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/sections/cards/card-6.php on line 49
+[24-Oct-2022 15:10:46 UTC] PHP Parse error:  syntax error, unexpected '}' in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/includes/child_helper.php on line 447
+[24-Oct-2022 21:43:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method idt_child_helper::getTplSingleProductOptions() in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/taxonomy-catalog_category.php:13
+Stack trace:
+#0 /home2/webtuata/public_html/magro/wp-includes/template-loader.php(106): include()
+#1 /home2/webtuata/public_html/magro/wp-blog-header.php(19): require_once('/home2/webtuata...')
+#2 /home2/webtuata/public_html/magro/index.php(17): require('/home2/webtuata...')
+#3 {main}
+  thrown in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/taxonomy-catalog_category.php on line 13
+[24-Oct-2022 21:43:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method idt_child_helper::getTplSingleProductOptions() in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/taxonomy-catalog_category.php:13
+Stack trace:
+#0 /home2/webtuata/public_html/magro/wp-includes/template-loader.php(106): include()
+#1 /home2/webtuata/public_html/magro/wp-blog-header.php(19): require_once('/home2/webtuata...')
+#2 /home2/webtuata/public_html/magro/index.php(17): require('/home2/webtuata...')
+#3 {main}
+  thrown in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/taxonomy-catalog_category.php on line 13
+[24-Oct-2022 21:44:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method idt_child_helper::getTplSingleProductOptions() in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/taxonomy-catalog_category.php:13
+Stack trace:
+#0 /home2/webtuata/public_html/magro/wp-includes/template-loader.php(106): include()
+#1 /home2/webtuata/public_html/magro/wp-blog-header.php(19): require_once('/home2/webtuata...')
+#2 /home2/webtuata/public_html/magro/index.php(17): require('/home2/webtuata...')
+#3 {main}
+  thrown in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/taxonomy-catalog_category.php on line 13
+[24-Oct-2022 21:44:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method idt_child_helper::getTplSingleProductOptions() in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/taxonomy-catalog_category.php:14
+Stack trace:
+#0 /home2/webtuata/public_html/magro/wp-includes/template-loader.php(106): include()
+#1 /home2/webtuata/public_html/magro/wp-blog-header.php(19): require_once('/home2/webtuata...')
+#2 /home2/webtuata/public_html/magro/index.php(17): require('/home2/webtuata...')
+#3 {main}
+  thrown in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/taxonomy-catalog_category.php on line 14
+[24-Oct-2022 21:45:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method idt_child_helper::getTplSingleProductOptions() in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/taxonomy-catalog_category.php:15
+Stack trace:
+#0 /home2/webtuata/public_html/magro/wp-includes/template-loader.php(106): include()
+#1 /home2/webtuata/public_html/magro/wp-blog-header.php(19): require_once('/home2/webtuata...')
+#2 /home2/webtuata/public_html/magro/index.php(17): require('/home2/webtuata...')
+#3 {main}
+  thrown in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/taxonomy-catalog_category.php on line 15
+[24-Oct-2022 22:22:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 1 passed in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/includes/child_helper.php on line 521 and exactly 2 expected in /home2/webtuata/public_html/magro/wp-includes/category-template.php:1278
+Stack trace:
+#0 /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/includes/child_helper.php(521): get_the_terms(547)
+#1 /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/taxonomy-catalog_category.php(14): idt_child_helper->getTplCategoryProductOptions(547)
+#2 /home2/webtuata/public_html/magro/wp-includes/template-loader.php(106): include('/home2/webtuata...')
+#3 /home2/webtuata/public_html/magro/wp-blog-header.php(19): require_once('/home2/webtuata...')
+#4 /home2/webtuata/public_html/magro/index.php(17): require('/home2/webtuata...')
+#5 {main}
+  thrown in /home2/webtuata/public_html/magro/wp-includes/category-template.php on line 1278
+[24-Oct-2022 22:22:43 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 1 passed in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/includes/child_helper.php on line 521 and exactly 2 expected in /home2/webtuata/public_html/magro/wp-includes/category-template.php:1278
+Stack trace:
+#0 /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/includes/child_helper.php(521): get_the_terms(547)
+#1 /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/taxonomy-catalog_category.php(14): idt_child_helper->getTplCategoryProductOptions(547)
+#2 /home2/webtuata/public_html/magro/wp-includes/template-loader.php(106): include('/home2/webtuata...')
+#3 /home2/webtuata/public_html/magro/wp-blog-header.php(19): require_once('/home2/webtuata...')
+#4 /home2/webtuata/public_html/magro/index.php(17): require('/home2/webtuata...')
+#5 {main}
+  thrown in /home2/webtuata/public_html/magro/wp-includes/category-template.php on line 1278
+[24-Oct-2022 22:24:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_term() in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/includes/child_helper.php:521
+Stack trace:
+#0 /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/taxonomy-catalog_category.php(14): idt_child_helper->getTplCategoryProductOptions(547)
+#1 /home2/webtuata/public_html/magro/wp-includes/template-loader.php(106): include('/home2/webtuata...')
+#2 /home2/webtuata/public_html/magro/wp-blog-header.php(19): require_once('/home2/webtuata...')
+#3 /home2/webtuata/public_html/magro/index.php(17): require('/home2/webtuata...')
+#4 {main}
+  thrown in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/includes/child_helper.php on line 521
+[24-Oct-2022 22:27:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method idt_child_helper::getTplSingleProductOptions() in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/single-catalog.php:13
+Stack trace:
+#0 /home2/webtuata/public_html/magro/wp-includes/template-loader.php(106): include()
+#1 /home2/webtuata/public_html/magro/wp-blog-header.php(19): require_once('/home2/webtuata...')
+#2 /home2/webtuata/public_html/magro/index.php(17): require('/home2/webtuata...')
+#3 {main}
+  thrown in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/single-catalog.php on line 13
+[05-Dec-2022 13:49:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method idt_child_helper::getTplSingleProductOptions() in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/single-catalog.php:13
+Stack trace:
+#0 /home2/webtuata/public_html/magro/wp-includes/template-loader.php(106): include()
+#1 /home2/webtuata/public_html/magro/wp-blog-header.php(19): require_once('/home2/webtuata...')
+#2 /home2/webtuata/public_html/magro/index.php(17): require('/home2/webtuata...')
+#3 {main}
+  thrown in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/single-catalog.php on line 13
+[05-Dec-2022 13:49:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method idt_child_helper::getTplSingleProductOptions() in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/single-catalog.php:13
+Stack trace:
+#0 /home2/webtuata/public_html/magro/wp-includes/template-loader.php(106): include()
+#1 /home2/webtuata/public_html/magro/wp-blog-header.php(19): require_once('/home2/webtuata...')
+#2 /home2/webtuata/public_html/magro/index.php(17): require('/home2/webtuata...')
+#3 {main}
+  thrown in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/single-catalog.php on line 13
+[05-Dec-2022 13:49:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method idt_child_helper::getTplSingleProductOptions() in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/single-catalog.php:13
+Stack trace:
+#0 /home2/webtuata/public_html/magro/wp-includes/template-loader.php(106): include()
+#1 /home2/webtuata/public_html/magro/wp-blog-header.php(19): require_once('/home2/webtuata...')
+#2 /home2/webtuata/public_html/magro/index.php(17): require('/home2/webtuata...')
+#3 {main}
+  thrown in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/single-catalog.php on line 13
+[06-Dec-2022 20:33:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/webtuata/public_html/magro/wp-content/themes/insomniodev-child/includes/child_helper.php on line 460

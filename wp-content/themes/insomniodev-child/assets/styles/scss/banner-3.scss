@@ -1,0 +1,41 @@
+.idt-banner-3 {
+    @media (max-width: 991px) {
+        margin-top: 10rem;
+    }
+    &__box {
+        background-color: var(--idt-bg-color-1);
+        box-shadow: 0 5px 20px #5653D326;
+        border-radius: 30px;
+        position: relative;
+        padding: 2rem;
+    }
+    &__title {
+        h2 {
+            color: var(--idt-text-color-2);
+            font-weight: bold;
+        }
+    }
+    &__caption {
+        @media (max-width: 991px) {
+            text-align: center;
+            margin-top: 2rem;
+        }
+    }
+    &__image-container {
+        @media (max-width: 991px) {
+            text-align: center;
+        }
+    }
+    &__image {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -1.5rem;
+        margin: auto;
+        width: 285px;
+        @media (max-width: 991px) {
+            position: relative;
+            margin-top: -13rem;
+        }
+    }
+}

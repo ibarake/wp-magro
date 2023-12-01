@@ -1,0 +1,23 @@
+.idt-grid-loop {
+    position: relative;
+    overflow: hidden;
+    &:before {
+        content: '';
+        width: 200%;
+        height: calc(100% - 29.42rem);
+        position: absolute;
+        top: 11.21rem;
+        left: -50%;
+        background-color: var(--idt-color-11);
+        border-radius: 40%;
+        opacity: 0.1;
+        z-index: -1;
+        @media (max-width: 991px) {
+            width: 100%;
+            height: 55%;
+            top: 5rem;
+            left: 0;
+            border-radius: 0;
+        }
+    }
+}

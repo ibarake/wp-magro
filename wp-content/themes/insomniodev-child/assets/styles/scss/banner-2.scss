@@ -1,0 +1,94 @@
+.idt-banner-2 {
+    padding: 7rem 0 4rem 0;
+    position: relative;
+    background-color: var(--idt-bg-color-9);
+    @media (max-width: 991px) {
+        margin-bottom: 3rem;
+    }
+    @media (max-width: 767px) {
+        padding: 5rem 0 4rem 0;
+    }
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: var(--idt-bg-color-2);
+        width: 100%;
+        height: 100%;
+        clip-path: ellipse(150% 71% at 50% 0%);
+        transform: scaleY(-1);
+        @media (max-width: 991px) {
+            clip-path: ellipse(200% 82% at 50% 0%);
+        }
+        @media (max-width: 767px) {
+            clip-path: ellipse(250% 86.5% at 50% 0%);
+        }
+    }
+    &__title {
+        h1 {
+            color: var(--idt-text-color-2);
+            @media (max-width: 991px) {
+                font-size: 1.9rem;
+                text-align: center;
+            }
+        }
+    }
+    &__content {
+        padding-top: 3rem;
+        position: relative;
+        padding-left: 4.5rem;
+        address {
+            line-height: 1.25rem;
+            margin-bottom: 2.5rem;
+            strong {
+                margin-top: 1rem;
+                font-weight: 800;
+                display: block;
+                position: relative;
+                margin-bottom: -1.2rem;
+                img {
+                    position: absolute;
+                    top: 0;
+                    left: -5rem;
+                    background-color: var(--idt-bg-color-1);
+                    border-radius: 50px;
+                    padding: 0.5rem;
+                    width: 55px;
+                }
+            }
+        }
+    }
+    &__form {
+        background-color: var(--idt-bg-color-2);
+        padding: 2rem;
+        box-shadow: -12px 19px 42px #263C491F;
+        border-radius: 30px;
+        position: relative;
+        z-index: 9;
+        @media (max-width: 991px) {
+            margin-top: 1rem;
+            padding: 1rem;
+        }
+        .idt-form-cf7--center {
+            position: relative;
+        }
+    }
+
+    .idt-figure-1 {
+        position: absolute;
+        right: 0;
+        bottom: 2rem;
+        @media (max-width: 991px) {
+            display: none;
+        }
+    }
+    .idt-figure-2 {
+        position: absolute;
+        top: -3rem;
+        left: -7rem;
+        @media (max-width: 991px) {
+            display: none;
+        }
+    }
+}

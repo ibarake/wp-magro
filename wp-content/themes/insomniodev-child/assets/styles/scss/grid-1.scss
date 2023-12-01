@@ -1,0 +1,95 @@
+.idt-grid-1 {
+    padding-top: 4rem;
+    padding-bottom: 5.18rem;
+    position: relative;
+    &--image-left .row {
+        flex-direction: row-reverse;
+        @media (max-width: 991px) {
+            flex-direction: column-reverse;
+            .idt-grid-1__image-container {
+                max-width: 60%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 3.37rem;
+            }
+        }
+        @media (max-width: 767px) {
+            .idt-grid-1__image-container {
+                max-width: 100%;
+            }
+        }
+
+    }
+    &__image {
+        width: 100%;
+    }
+    &__title {
+        font-weight: 800;
+    }
+    &__content {
+        strong {
+            font-weight: bold;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 2rem;
+            @media (max-width: 991px) {
+                margin-top: 1rem;
+            }
+            li {
+                position: relative;
+                padding-left: 1.65rem;
+                margin-bottom: 1rem;
+                &:before {
+                    content: '';
+                    width: 18px;
+                    height: 6px;
+                    position: absolute;
+                    top: 8px;
+                    left: 0;
+                    border-radius: 5px;
+                    background-color: var(--idt-color-10);
+                }
+            }
+            strong {
+                font-size: 1.12rem;
+            }
+        }
+        form {
+            background-color: var(--idt-color-2);
+            box-shadow: 0 5px 20px var(--idt-box-shadow-1);
+            border-radius: 30px;
+            padding: 2rem;
+            @media (max-width: 991px) {
+                padding: 1rem;
+            }
+        }
+    }
+
+    .idt-figure-1 {
+        position: absolute;
+        right: -5.5rem;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        z-index: -1;
+        @media (max-width: 991px) {
+            display: none;
+        }
+    }
+
+    &--style-2 {
+        .idt-figure-1 {
+            position: absolute;
+            left: -5.5rem;
+            top: 0;
+            bottom: 0;
+            display: flex;
+            z-index: -1;
+            @media (max-width: 991px) {
+                display: none;
+            }
+        }
+    }
+}

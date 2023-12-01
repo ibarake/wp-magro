@@ -1,0 +1,58 @@
+.idt-tpl-distributor {
+    .idt-content-2 {
+        .idt-figure {
+            display: none;
+        }
+    }
+}
+.ld-page {
+    #idt-main {
+        position: relative;
+
+        &:before {
+            position: absolute;
+            content: '';
+            width: calc(100% + 20%);
+            height: 90px;
+            bottom: calc(100% - 23px);
+            border-radius: 50% 50% 0 0;
+            left: -10%;
+            background-color: var(--idt-bg-color-2);
+          }
+    }
+
+}
+
+.idt-tpl-services {
+    .idt-section-1 {
+        .idt-figure {
+            display: none;
+        }
+    }
+}
+
+.idt-tpl-products {
+    .idt-grid-1.idt-grid-1--style-2 {
+        .idt-grid-1__row {
+            @media (max-width: 991px) {
+                flex-direction: column-reverse;
+            }
+        }
+        .idt-grid-1__image {
+            @media (max-width: 991px) {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
+
+.idt-tpl-thp {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.idt-tpl-page {
+    min-height: 100vh;
+}

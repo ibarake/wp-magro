@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_3290" data-name="Rectángulo 3290" width="300" height="300" transform="translate(-6896 -9741)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="formas-productos-1" transform="translate(6896 9741)" clip-path="url(#clip-path)">
+    <g id="Grupo_9684" data-name="Grupo 9684" transform="translate(-6776.834 -10355.703)">
+      <path id="Trazado_12583" data-name="Trazado 12583" d="M39.87,413.747A39.867,39.867,0,0,1,0,373.883C0,167.722,167.715,0,373.87,0a372.838,372.838,0,0,1,126.1,21.81,39.867,39.867,0,0,1-26.885,75.064A293.268,293.268,0,0,0,373.87,79.733c-162.187,0-294.137,131.957-294.137,294.151A39.871,39.871,0,0,1,39.87,413.747" transform="matrix(0.995, -0.105, 0.105, 0.995, -350.77, 681.475)" fill="#5653d3"/>
+      <path id="Trazado_12626" data-name="Trazado 12626" d="M293.635,310.2a19.657,19.657,0,0,0,22.614-16.166C339.091,156.656,245.91,26.307,108.536,3.466A251.414,251.414,0,0,0,15.651,5.281,19.656,19.656,0,1,0,23.67,43.766a212.338,212.338,0,0,1,78.417-1.521C218.079,61.532,296.755,171.594,277.47,287.585A19.657,19.657,0,0,0,293.635,310.2" transform="translate(-199.098 1058.894) rotate(-90)" fill="#ff9429"/>
+    </g>
+  </g>
+</svg>

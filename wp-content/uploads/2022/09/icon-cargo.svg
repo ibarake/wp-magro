@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_3350" data-name="Rectángulo 3350" width="18" height="18" transform="translate(15545 -983)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="icon-cargo" transform="translate(-15545 983)" clip-path="url(#clip-path)">
+    <g id="Icon_feather-briefcase" data-name="Icon feather-briefcase" transform="translate(15543.639 -985.5)">
+      <path id="Trazado_13020" data-name="Trazado 13020" d="M4.472,10.5H16.25a1.472,1.472,0,0,1,1.472,1.472v7.361a1.472,1.472,0,0,1-1.472,1.472H4.472A1.472,1.472,0,0,1,3,19.333V11.972A1.472,1.472,0,0,1,4.472,10.5Z" transform="translate(0 -3.056)" fill="none" stroke="#5653d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Trazado_13021" data-name="Trazado 13021" d="M17.889,17.75V5.972A1.472,1.472,0,0,0,16.417,4.5H13.472A1.472,1.472,0,0,0,12,5.972V17.75" transform="translate(-4.583)" fill="none" stroke="#5653d3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

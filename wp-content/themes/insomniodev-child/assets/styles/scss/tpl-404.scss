@@ -1,0 +1,47 @@
+.idt-tpl-404 {
+    &__wrapper {
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+
+        @media only screen and (max-width: 991px) {
+            padding: 2rem 0;
+        }
+    }
+
+    &__title {
+        font-size: 7rem;
+        margin-bottom: 3rem;
+        color: var(--idt-text-color-1);
+
+        @media only screen and (max-width: 991px) {
+            font-size: 4rem;
+            margin-bottom: 1.25rem;
+        }
+    }
+
+    p {
+        color: var(--idt-text-color-9);
+    }
+
+    .input-group {
+        margin-top: 2.25rem;
+        border: 1px solid var(--idt-bg-color-9);
+        border-radius: 11px;
+    }
+
+    .idt-search-submit {
+        margin-top: 5px;
+    }
+
+    .form-search #s {
+        background-color: var(--idt-bg-color-2);
+    }
+
+    .fa-search:before {
+        color: var(--idt-bg-color-1);
+
+        &:hover {
+            color: var(--idt-text-color-9);
+        }
+    }
+}

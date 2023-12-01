@@ -1,0 +1,50 @@
+.idt-pagination {
+
+    .prev,
+    .next {
+        margin-left: 0;
+        margin-right: 0;
+        box-shadow: 0 1px 10px #5653d340;
+        border-radius: 50px;
+        transition: 200ms all ease-in-out;
+       
+        &:hover {
+            box-shadow: 0 1px 10px var(--idt-color-3);
+            border-radius:50px;
+        }
+    }
+
+    .prev img {
+        transform: rotate(180deg);
+    }
+
+    span.page-numbers {
+        margin-left: 0;
+    }
+
+    a.page-numbers:not(.prev):not(.next) {
+        text-decoration: none;
+    }
+
+    li {
+        margin-right: 0;
+    }
+
+    li:not(:last-child) {
+        .page-numbers {
+            margin-left: 0;
+            margin-right: 1.87rem;
+        }
+    }
+
+    .page-numbers.current {
+        font-weight: 800;
+    }
+
+    .page-numbers:not(.next):not(.prev) {
+        font-size: 1.12rem;
+        line-height: 1.37rem;
+        color: var(--idt-text-color-3);
+    }
+
+}

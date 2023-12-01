@@ -1,0 +1,22 @@
+#idt-tpl-blog {
+    main {
+        padding-top: 1rem;
+        position: relative;
+        z-index: 3;
+    }
+    .col-lg-9 {
+        @media only screen and (min-width: 991px) {
+            width: 67%;
+        }
+    }
+
+    .col-lg-3 {
+        @media only screen and (min-width: 991px) {
+            width: 30%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) {
+        margin-top: 5.25rem;
+    }
+}

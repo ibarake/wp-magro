@@ -1,0 +1,49 @@
+.idt-card-7 {
+    &__box {
+        box-shadow: 0 5px 20px #5653D326;
+        border-radius: 20px;
+        background-color: var(--idt-bg-color-2);
+        text-align: center;
+        padding: 2rem 1rem;
+        margin: 0 1rem;
+        transition: 200ms  all ease-in-out;
+        &:hover {
+            background-color: var(--idt-bg-color-16);
+            .idt-card-7__title {
+                h3 {
+                    a {
+                        color: var(--idt-text-color-2);
+                    }
+                }
+            }
+            .idt-card-7__cta {
+                .idt-button {
+                    color: var(--idt-text-color-4);
+                    background-color: var(--idt-bg-color-2);
+                }
+            }
+        }
+    }
+    &__image {
+        aspect-ratio: 140/170;
+        width: 140px;
+        margin: -5rem auto 0 auto;
+    }
+    &__title {
+        h3 {
+            line-height: 1rem;
+            a {
+                font-size: 1rem;
+                font-weight: 300;
+                color: var(--idt-text-color-4);
+                min-height: 40px;
+                display: block;
+                margin-top: 1rem;
+                text-decoration: none;
+                &:hover {
+                    color: var(--idt-text-color-3);
+                }
+            }
+        }
+    }
+}

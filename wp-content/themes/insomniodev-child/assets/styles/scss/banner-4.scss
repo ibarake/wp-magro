@@ -1,0 +1,66 @@
+.idt-banner-4 {
+    padding: 110px 0 90px;
+	background-color: var(--idt-bg-color-9);
+	@media only screen and (max-width: 991px) {
+		margin-bottom: 1rem;
+	}
+	
+	&__title{
+        font-weight: bold;
+		margin-bottom: 0;
+		font-size: 3.12rem;
+		line-height: 3.31rem;
+		@media only screen and (max-width: 767px){
+        font-size: 1.87rem;
+		line-height: 2rem;
+		text-align: center;
+		margin-left:  0!important;
+		}
+		
+	}
+
+	.idt-title {
+        margin-top: 0!important;
+        @media only screen and (max-width: 767px) {
+			margin-left: 1.43rem;
+		}
+	}
+
+	&__title2{
+		color: var(--idt-text-color-6);
+		margin-top: 4rem;
+		strong{
+			color: var(--idt-text-color-4);
+		}
+	}
+
+	&__title4{
+		margin-top: 4.37rem;
+		strong{
+			color: var(--idt-text-color-6);
+		}
+	}
+
+	&__title5{
+		margin-top: 4.37rem;
+		strong{
+			color: var(--idt-text-color-6);
+		}
+	}
+    
+	&__title, &__title3, &__title4, &__title5 {
+		color: var(--idt-text-color-6);
+	}
+
+
+	&__title2, &__title3, &__title4, &__title5{
+		font-size: 1.87rem;
+		line-height: 2.87rem;
+		@media only screen and (max-width: 991px){
+			strong {
+				display: block;
+			}
+		}
+
+	}
+}

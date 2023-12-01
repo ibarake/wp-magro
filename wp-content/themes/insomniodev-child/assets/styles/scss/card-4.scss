@@ -1,0 +1,38 @@
+.idt-card-4 {
+    padding: 1rem 2rem 1rem 2rem;
+    &__image {
+        border-radius: 50px;
+    }
+    &__caption {
+        @media (max-width: 991px) {
+            margin-top: 1rem;
+        }
+    }
+    &__title {
+        h3 {
+            font-size: 1.13rem;
+            font-weight: 800;
+        }
+    }
+    &__location {
+        h4 {
+            font-size: 1rem;
+        }
+    }
+    &__cta {
+        margin-top: 1rem;
+        p {
+            font-size: 0.875rem;
+            line-height: 0.7rem;
+            margin-bottom: 0;
+        }
+        a {
+            color: var(--idt-text-color-4);
+            text-decoration: none;
+            transition: 300ms all ease-in-out;
+            &:hover {
+                color: var(--idt-text-color-9);
+            }
+        }
+    }
+}

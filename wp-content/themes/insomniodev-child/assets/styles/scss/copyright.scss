@@ -1,0 +1,18 @@
+.idt-copyright {
+    &__content {
+        p, a {
+            font-size: 0.875rem;
+            color: var(--idt-text-color-2);
+        }
+        p {
+            margin-bottom: 0.6rem;
+        }
+        a {
+            transition: 200ms all ease-in-out;
+            text-decoration: none;
+            &:hover {
+                color: var(--idt-text-color-2);
+            }
+        }
+    }
+}

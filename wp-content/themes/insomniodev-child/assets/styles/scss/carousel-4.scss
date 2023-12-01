@@ -1,0 +1,152 @@
+.idt-carousel-4 {
+    padding: 4rem 0;
+    position: relative;
+    &__box {
+        box-shadow: 0 5px 20px #5653d326;
+        border-radius: 30px;
+        background-color: var(--idt-bg-color-2);
+        padding-bottom: 2rem;
+    }
+    &__caption {
+        background-color: var(--idt-bg-color-1);
+        padding: 2rem;
+        border-radius: 30px;
+        color: var(--idt-text-color-2);
+        a {
+            color: var(--idt-text-color-2);
+            text-decoration: none;
+            transition: 300ms all ease-in-out;
+            &:hover {
+                color: var(--idt-text-color-9);
+            }
+        }
+    }
+    &__title {
+        font-size: 1.13rem;
+        font-weight: 800;
+    }
+    &__content {
+        address {
+            margin-bottom: 0;
+        }
+    }
+
+    &__locations {
+        column-count: 3;
+        padding: 2rem 2rem 1rem 2rem;
+        box-shadow: 0 5px 20px #5653d326;
+        border-radius: 30px;
+        background-color: var(--idt-bg-color-2);
+        list-style: none;
+        @media (max-width: 1199px) {
+            column-count: 2;
+            margin-bottom: 3rem;
+        }
+        li {
+            position: relative;
+            counter-increment: lista;
+            margin-bottom: 0.875rem;
+            color: var(--idt-text-color-5);
+            font-weight: 800;
+            padding-left: 2.2rem;
+            line-height: 1.7rem;
+            &:before {
+                content: counter(lista) " ";
+                position: absolute;
+                top: 0;
+                left: 0;
+                color: var(--idt-text-color-2);
+                line-height: 1rem;
+                font-weight: 700;
+                background-color: var(--idt-bg-color-3);
+                width: 26px;
+                height: 26px;
+                border-radius: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+
+    .slick-arrow {
+        //top: inherit;
+        //bottom: 2rem;
+    }
+    .slick-arrow.slick-prev {
+        //left: 50%;
+        //margin-left: -5rem;
+    }
+    .slick-arrow.slick-next {
+        //right: 50%;
+        //margin-right: -5rem;
+    }
+
+    &__controller {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .carousel-indicators {
+            position: initial;
+            margin: 0;
+            align-items: center;
+            &__item {
+                width: 10px !important;
+                height: 10px !important;
+                border-radius: 50%;
+                border: 2px solid transparent !important;
+                box-shadow: 0 0 0 3px transparent;
+                opacity: 1;
+                transition: 300ms all ease-in-out;
+                background-color: var(--idt-bg-color-12) !important;
+                &:hover,
+                &.active{
+                    width: 10px !important;
+                    height: 10px !important;
+                    background-color: var(--idt-bg-color-2) !important;
+                    border: 2px solid transparent !important;
+                    box-shadow: 0 0 0 3px var(--idt-bg-color-3);
+                    opacity: 1;
+                }
+            }
+        }
+        .carousel-control-next, .carousel-control-prev {
+            position: initial;
+            margin: 0;
+        }
+        .carousel-control-prev {
+            margin-right: 2rem;
+        }
+        .carousel-control-next {
+            margin-left: 2rem;
+        }
+        button {
+            background-color: var(--idt-bg-color-2);
+            box-shadow: 0px 1px 10px #5653D340;
+            position: initial;
+            width: 35px;
+            height: 35px;
+            padding: 0.6rem 0.5rem;
+            border-radius: 50%;
+            border: 1px solid transparent;
+            transition: 300ms ease-in-out;
+            opacity: 1;
+            i {
+                color: var(--idt-text-color-3);
+            }
+            &:hover, .active{
+                border: 1px solid var(--idt-bg-color-3);
+            }
+        }
+    }
+
+    .idt-figure-1 {
+        position: absolute;
+        left: 0;
+        bottom: 6rem;
+        z-index: -1;
+        @media (max-width: 991px) {
+            display: none;
+        }
+    }
+}

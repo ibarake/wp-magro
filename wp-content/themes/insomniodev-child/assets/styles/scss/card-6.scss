@@ -1,0 +1,91 @@
+.idt-card-6 {
+    margin: 0 1rem 5.4rem 1rem;
+    &__row {
+        display: flex;
+        align-items: center;
+        padding-right: 1rem;
+        box-shadow: 0 5px 20px #5653D326;
+        border-radius: 30px;
+        background-color: var(--idt-bg-color-2);
+        height: 140px;
+        transition: 300ms all ease-in-out;
+        &:hover {
+            background-color: var(--idt-bg-color-1);
+            h3, a {
+                color: var(--idt-text-color-2);
+                &:hover {
+                    color: var(--idt-text-color-2);
+                }
+            }
+            .idt-card-6__cta-item {
+                .idt-figure {
+                    background-image: url(../../images/icon-arrow-product-white.svg);
+                }
+            }
+        }
+    }
+    &__col-left {
+        padding: 1rem;
+    }
+    &__category {
+        h3 {
+            transition: 300ms all ease-in-out;
+            a {
+                color: var(--idt-text-color-4);
+                font-size: 1.13rem;
+                font-weight: bold;
+                min-height: 44px;
+                max-height: 65px;
+                max-width: 135px;
+                overflow-y: auto;
+                overflow-x: hidden;
+                display: block;
+                text-decoration: none;
+                transition: 200ms all ease-in-out;
+                &::-webkit-scrollbar {
+                    width: 5px;
+                    height: 7px;
+                    padding: 1px 0;
+                }
+                /* Track */
+                &::-webkit-scrollbar-track {
+                    background-color: var(--idt-bg-color-12);
+                }
+                /* Handle */
+                &::-webkit-scrollbar-thumb {
+                    background-color: var(--idt-bg-color-5);
+                    border-radius: 20px;
+                }
+                &:hover {
+                    color: var(--idt-text-color-3);
+                }
+            }
+        }
+    }
+    &__image {
+        aspect-ratio: 140/170;
+        width: 140px;
+        margin-top: -5rem;
+        object-fit: contain;
+    }
+    &__cta {
+        &-item {
+            color: var(--idt-text-color-1);
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-decoration: none;
+            transition: 200ms all ease-in-out;
+            &:hover {
+                color: var(--idt-text-color-3);
+            }
+            .idt-figure {
+                background-image: url(../../images/icon-arrow-product.svg);
+                width: 30px;
+                height: 10px;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
